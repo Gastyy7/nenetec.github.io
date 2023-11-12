@@ -1,0 +1,12 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Sombra tarjeta */
+.hover-card {
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+/* Animacion de sombra */
+.hover-card:hover {
+    box-shadow: 0 0.1rem 1rem rgb(0,0,3);
+}
